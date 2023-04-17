@@ -47,13 +47,14 @@ table {
 	border-spacing: 0;
 }
 
+
 * {
     font-family: Verdana, Arial, sans-serif;
     line-height: 1.5;
 }
 body {
     background-color: #f28095;
-    margin: 0;
+    margin: 0px;
 }
 header footer {
     width: 1000px;
@@ -80,22 +81,28 @@ h1 {
     grid-template-columns: 184px 1fr;
     gap: 0 16px;
 }
+
 nav {
     width: 150px;
     margin-top: 16px;
 }
 nav li {
     list-style-type: none;
-    text-align: center;
+    text-align: center;  
+
 }
 nav a {
     display: block;
     padding: 16px;
-    margin: 8px auto;
+    margin: 16px 16px;
     background-color: #e0e5de;
     color: #141a1a;
     text-decoration: none;
     font-weight: bold;
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.5;
+    
+    
 }
 nav a:hover {
     background-color: #f28095;
@@ -110,15 +117,21 @@ h2 {
     font-family: Verdana, Arial, sans-serif;
 
 }
+main {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+}
 main p > ul {
     display: block;
     width: 50%;
 }
 main img {
     float: left;
+    padding-top: 16px;
 }
 main p {
     margin-left: 32px;
+    padding: 16px;
 }
 main ul {
     margin-left: 16px;
@@ -133,4 +146,5 @@ footer {
     text-align: center;
     background-color: #afaeb4;
     padding: 8px 0px 8px 0px;
+    font-size: 18px;
 }
