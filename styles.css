@@ -52,9 +52,17 @@ table {
     font-family: Verdana, Arial, sans-serif;
     line-height: 1.5;
 }
+html {
+    font-family: Verdana, Arial, sans-serif;
+    height: 749.812px;
+    line-height: 24px;
+}
 body {
     background-color: #f28095;
     margin: 0px;
+    font-family: Verdana, Arial, sans-serif;
+    height: 749.812px;
+    line-height: 24px;
 }
 header footer {
     width: 1000px;
@@ -64,14 +72,16 @@ header {
     height: 150px;
     background: #141a1a url("bowl.jpg") no-repeat center right;
     color: white;
+    width: 1000px;
 }
 h1 {
     margin: 0;
     padding-top: 50px;
     padding-left: 32px;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 32px;
     font-weight: bold;
+    line-height: 1.5;
 }
 #grid-container {
     width: 1000px;
@@ -80,28 +90,45 @@ h1 {
     display: grid;
     grid-template-columns: 184px 1fr;
     gap: 0 16px;
+    font-family: Verdana, Arial, sans-serif;
+    height: 527.812px;
+    line-height: 24px;
 }
 
 nav {
     width: 150px;
     margin-top: 16px;
+    font-family: Verdana, Arial, sans-serif;
+    height: 511.812px;
+    line-height: 24px;
+}
+nav ul {
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 24px;
+    list-style-type: disc;
+    margin-block-end: 16px;
+    margin-block-start: 16px;
+    padding-inline-start: 40px;
+
 }
 nav li {
     list-style-type: none;
-    text-align: center;  
-
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 24px;
+    width: 110px;
 }
 nav a {
     display: block;
     padding: 16px;
-    margin: 16px 16px;
+    margin: 8px 0;
     background-color: #e0e5de;
     color: #141a1a;
     text-decoration: none;
     font-weight: bold;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     line-height: 1.5;
-    
+    width: 78px;
     
 }
 nav a:hover {
@@ -118,12 +145,13 @@ h2 {
 
 }
 main {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Verdana,Arial, sans-serif;
     font-size: 16px;
 }
 main p > ul {
     display: block;
     width: 50%;
+    
 }
 main img {
     float: left;
@@ -135,6 +163,8 @@ main p {
 }
 main ul {
     margin-left: 16px;
+    font-family: Verdana, Arial, sans-serif;
+    
 }
 address {
     clear: both;
@@ -147,4 +177,10 @@ footer {
     background-color: #afaeb4;
     padding: 8px 0px 8px 0px;
     font-size: 18px;
+    height: 56px;
+    width: 1000px;
+}
+footer p {
+    margin-block-end: 16px;
+    margin-block-start: 16px;
 }
